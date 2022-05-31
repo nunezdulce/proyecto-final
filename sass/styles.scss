@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+} 
+a{
+    text-decoration: none;
+}
+body{
+    font-family: fantasy;
+    color: aliceblue;
+}
+
+
+.bg-principal{
+    background-color: rgb(180, 200, 232);
+
+}
+.pad-y {
+    padding-top: 12% ;
+
+}
+.boton{
+border: 1px solid rgb(39, 244, 255);
+padding: 10px 25px;
+font-weight: bold;
+color:rgb(92, 240, 240);
+border-radius: 30px;
+text-decoration: none;
+
+}
+.co{
+    text-align: left;
+    color: rgb(255, 221, 0);
+    font-weight: bold;
+}
+.so{
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.c{
+    text-align: center;
+    color: rgb(255, 221, 0);
+    font-weight: bold;
+}
+/*-------------------------------------------------------------- 
+
+# Estilos Scroll 
+
+--------------------------------------------------------------*/ 
+
+body::-webkit-scrollbar { 
+
+    width: 10px; 
+
+    background: rgb(59, 57, 57); 
+
+  } 
+
+  body::-webkit-scrollbar-thumb { 
+
+    /*background: white, 0.2;*/ 
+
+    border-radius: 10px; 
+
+    border-right: 10px solid rgb(0, 3, 4); 
+
+  } 
+
+ 

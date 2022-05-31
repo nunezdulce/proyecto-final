@@ -1,0 +1,242 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+} 
+a {
+    text-decoration: none;
+    color: black;
+   
+  }
+   
+  i {
+    font-size: 1rem;
+  }
+   
+  e {
+    font-size: x-large;
+  }
+
+
+body{
+    background-color: rgb(228, 239, 238);
+    font-family: jost;
+    color: rgb(0, 0, 0);
+}
+.bg-nav{
+    background-color: rgb(80, 80, 80);
+   
+}
+.tt{
+    font-family: jost;
+    font-size: xx-large;
+    color: rgb(55, 122, 100);
+}
+.bg-principal{
+    background-color: rgb(180, 200, 232);
+
+}
+.pad-y {
+    padding-top: 12% ;
+
+}
+.boton{
+border: 1px solid rgb(30, 164, 121);
+padding: 8px 25px ;
+background-color:rgb(30, 164, 121) ;
+font-weight: bold;
+color:rgb(255, 255, 255);
+border-radius: 30px;
+text-decoration: none;
+
+}
+
+.botonn{
+border: 1px solid rgb(22, 96, 111);
+padding: 8px 25px ;
+background-color:rgb(22, 96, 111);
+font-weight: bold;
+color:rgb(255, 255, 255);
+border-radius: 30px;
+text-decoration: none;
+}
+.botoncoti{
+    border: 1px solid rgb(255, 221, 0);
+    
+padding: 8px 25px ;
+background-color:rgb(255, 221, 0);
+font-weight: bold;
+color:rgb(255, 255, 255);
+border-radius: 30px;
+text-decoration: none;
+}
+.co{
+    text-align: left;
+    color: rgb(255, 221, 0);
+    font-weight: bold;
+}
+.so{
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.c{
+    text-align: center;
+    color: rgb(255, 221, 0);
+    font-weight: bold;
+}
+/*-------------------------------------------------------------- 
+
+# Estilos Scroll 
+
+--------------------------------------------------------------*/ 
+
+body::-webkit-scrollbar { 
+
+    width: 10px; 
+
+    background: rgb(59, 57, 57); 
+
+  } 
+
+  body::-webkit-scrollbar-thumb { 
+
+    /*background: white, 0.2;*/ 
+
+    border-radius: 10px; 
+
+    border-right: 10px solid rgb(27, 29, 29); 
+
+  } 
+
+  .navbar-light .navbar-nav .nav-link.active,
+
+  .navbar-light .navbar-nav .show>.nav-link {
+  
+    color: rgba(255, 255, 255, 0.9);
+  
+  }
+  .navbar-light .navbar-nav .nav-link {
+
+    color: rgb(255, 255, 255);
+  
+  }
+
+ .tty{
+    background-color: rgb(228, 239, 238);
+    font-family: jost;
+    
+    color: rgb(0, 0, 0);
+ }
+ .tto{
+    background-color:rgb(30, 164, 121) ;
+    font-family: jost;
+    color: rgb(255, 255, 255);
+}
+.tti{
+    background-color: rgb(22, 96, 111);
+    font-family: jost;
+    color: rgb(255, 255, 255);
+}
+.bn{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+.la{
+    font-family: jost;
+    color: rgb(242, 183, 9);
+}
+.lb{
+    font-family: jost;
+    color: rgb(255, 255, 255);
+}
+.reto2{
+    width: 100%;
+    height: 80vh;
+
+    background-image: url("/img/nosotros.jpg");
+  }
+  .reto{
+    width: 100%;
+    height: 80vh;
+    background-image: url("/img/proyectos-audiovisuales-multimedia-interactivos.jpg");
+  }
+  .eje{
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+  }
+ 
+.drop { filter: drop-shadow(0 5px 8px rgba(0, 0, 0, 0.7)); }
+.multi{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url("/img/headphones-g38bfbdf2e_1920.jpg");
+  }
+
+
+   
+  .bg-nav {
+   
+    background-color: rgb(80, 80, 80);
+   
+  }
+   
+  .bg-col-01 {
+   
+    background-color: rgb(0, 104, 119);
+   
+  }
+   
+  .bg-col-02 {
+   
+    background-color: rgb(0, 170, 149);
+   
+  }
+   
+  .bg-col-03 {
+   
+    background-color: rgb(0, 0, 0);
+   
+  }
+   
+  .bg-col-04{
+    background-color: rgb(232, 243, 241);
+   
+  }
+   
+  .font-color-01{
+    color:rgb(255, 255, 255);
+   
+  }
+   
+  .font-color-02 {
+    color:rgb(0, 104, 119);
+    font-weight: 500;
+    font-size: 150%;
+   
+  }
+   
+  .font-color-03 {
+    color:rgb(246, 194, 0);
+    font-weight: 700;
+    font-size: 450%;
+   
+  }
+  .app{
+    width: 100%;
+    height: 80vh;
+    background-image: url("/img/celular.jpg");
+  
+     background-repeat: no-repeat ;
+   
+  }
+  .app1{
+    width: 100%;
+    height: 80vh;
+    background-image: url("/img/mobile-phone-g5edfe2894_1280.jpg");
+  
+     background-repeat: no-repeat ;
+   
+  }
